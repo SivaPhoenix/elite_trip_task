@@ -21,9 +21,10 @@ function Search() {
         <div><img src={Frame5} alt="Frame5"/></div>
         <div><img src={Frame6} alt="Frame6"/></div>
     </div>
+    <div className='si'>
     <div className='showmore'>
         <a href="">Show More!</a>
-    </div>
+    </div></div>
     </>
   )
 }

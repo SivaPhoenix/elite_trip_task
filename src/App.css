@@ -5,6 +5,7 @@
   display: flex;
   background-color: white;
   padding-left: 1rem;
+  
 }
 .red{
   color: #FB471F;
@@ -22,20 +23,20 @@
   font-weight: 400;
 }
 .side{
+  position: absolute;
+  right: 2%;
   display: flex;
   gap: 2rem;
-  padding-left: 40rem;
-  /* background-color: grey; */
-  justify-content: center;
   text-align: center;
   padding-top: 2rem;
-
   font-family: Jost;
   font-size: 1.4375rem;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: normal;  
 }
+
+
 .item{
   text-align: center;
 }
@@ -214,6 +215,7 @@ img{
 }
 
 .showmore{
+
   border-radius: 0.625rem;
   background: #FB471F;
   padding: 0.875rem 2.8125rem;
@@ -221,7 +223,6 @@ img{
   gap: 0.625rem;
   width: 10rem;
   height: 2rem;
-  margin-left: 32rem;
   margin-top: 5rem;
   color: #FFF;
   text-align: center;
@@ -233,6 +234,10 @@ img{
 }
 .showmore a{
   color: #FFF;
+}
+.si{
+  display: flex;
+  justify-content: center;
 }
 .guide-top{
   margin-left: 5rem;
