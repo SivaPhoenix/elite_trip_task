@@ -23,7 +23,7 @@ function Search() {
     </div>
     <div className='si'>
     <div className='showmore'>
-        <a href="">Show More!</a>
+        <a href="/">Show More!</a>
     </div></div>
     </>
   )
