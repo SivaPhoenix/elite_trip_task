@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
     <div id="home" className='title'>Vienna Awaits: Unleash Your Wanderlust in Austria's Vibrant Capital!</div>
-    <a href=""><div className='btn'>Check this trip</div></a>
+    <div className='siva'><a href="#"><div className='btn'>Check this trip</div></a></div>
     <div className='card'>
         <div className='card-text'>
           <h1>Audio Guide</h1>

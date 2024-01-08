@@ -75,7 +75,6 @@
   0 0 0 2px red,
   0.3em 0.3em 1em red;
   /* border: 1px solid black; */
-  margin-left: 30rem;
   text-decoration: none;
   font-family: Jost;
   font-size: 1.75rem;
@@ -119,6 +118,10 @@ a:link {
   text-align: left;
   padding-left:1rem;
 
+}
+.siva{
+  display: flex;
+  justify-content: center;
 }
 .under{
   color: #FFF;
@@ -264,6 +267,7 @@ text-align: left;
   background-color: rgb(231, 223, 223);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform .2s;
+  cursor: pointer;
 
 }
 .guide-item:hover{
